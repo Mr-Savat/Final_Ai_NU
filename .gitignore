@@ -8,22 +8,23 @@ env/
 *.sqlite3
 *.zip
 
-# GPT-2 model
+# GPT-2 model (skip big folder)
 backend/gpt2-norton/
+
+# Training scripts / dataset
+train_gpt2.py
+prepare_dataset.py
+train.txt
+download_gpt2.py
+gpt2_model.py
+
 
 # Logs
 *.log
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Env
+# Environment
 .env
-
-
-# In .gitignore
-train_gpt2.py
-prepare_dataset.py
-train.txt
-download_gpt2l.py
