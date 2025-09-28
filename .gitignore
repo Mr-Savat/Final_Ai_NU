@@ -20,3 +20,10 @@ Thumbs.db
 
 # Env
 .env
+
+
+# In .gitignore
+train_gpt2.py
+prepare_dataset.py
+train.txt
+download_gpt2l.py
