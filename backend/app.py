@@ -74,7 +74,7 @@
 import os
 from flask import Flask, request, jsonify, send_from_directory
 from faq_loader import load_faq, find_answer
-from gpt2_model import ask_gpt2
+# from gpt2_model import ask_gpt2
 from confidence import calculate_confidence
 from groq import Groq
 from dotenv import load_dotenv  # Load environment variables
