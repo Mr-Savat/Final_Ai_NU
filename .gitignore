@@ -12,11 +12,13 @@ env/
 backend/gpt2-norton/
 
 # Training scripts / dataset
-train_gpt2.py
-prepare_dataset.py
-train.txt
-download_gpt2.py
-gpt2_model.py
+# Skip GPT-2 files in backend
+backend/train_gpt2.py
+backend/prepare_dataset.py
+backend/train.txt
+backend/download_gpt2.py
+backend/gpt2_model.py
+backend/gpt2-norton/
 
 
 # Logs

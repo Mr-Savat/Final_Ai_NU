@@ -3,9 +3,11 @@ services:
     name: norton-chatbot
     env: python
     plan: free
-    region: singapore
+    region: singapore   # closest to Cambodia
     buildCommand: pip install -r backend/requirements.txt
     startCommand: python backend/app.py
     envVars:
+      - key: GROQ_API_KEY
+        value: "gsk_YourGroqAPIKeyHere"
       - key: PYTHON_VERSION
         value: 3.10
